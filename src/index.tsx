@@ -210,6 +210,7 @@ const loadOptions = (observer: Observer, name: string, skyboxUrls: Map<string, s
 console.log(`Model Viewer v${modelViewerVersion} | PCUI v${pcuiVersion} (${pcuiRevision}) | PlayCanvas Engine v${engineVersion} (${engineRevision})`);
 
 const main = () => {
+    console.log('Player Startet');
     // initialize the apps state
     const observer: Observer = new Observer(observerData);
 
